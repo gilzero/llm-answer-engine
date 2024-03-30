@@ -74,13 +74,13 @@ The configuration file is located in the `app/config.tsx` file. You can modify t
 
 - useOllamaInference: false,
 - useOllamaEmbeddings: false,
-- inferenceModel: 'mixtral-8x7b-32768', 
-- inferenceAPIKey: process.env.GROQ_API_KEY, 
-- embeddingsModel: 'text-embedding-3-small', 
-- textChunkSize: 800, 
-- textChunkOverlap: 200, 
+- inferenceModel: 'mixtral-8x7b-32768',
+- inferenceAPIKey: process.env.GROQ_API_KEY,
+- embeddingsModel: 'text-embedding-3-small',
+- textChunkSize: 800,
+- textChunkOverlap: 200,
 - numberOfSimilarityResults: 2,
-- numberOfPagesToScan: 10, 
+- numberOfPagesToScan: 10,
 - nonOllamaBaseURL: 'https://api.groq.com/openai/v1'
 
 ### Ollama Support (Partially supported)
@@ -112,7 +112,7 @@ More info: https://ollama.com/blog/openai-compatibility
 
 In addition to the Next.JS version of the project, there is a backend only version that uses Node.js and Express. Which is located in the 'original-express-api' directory. This is a standalone version of the project that can be used as a reference for building a similar API. There is also a readme file in the 'original-express-api' directory that explains how to run the backend version.
 
-[Watch the express tutorial here](https://youtu.be/43ZCeBTcsS8) for a detailed guide on setting up and running this project. 
+[Watch the express tutorial here](https://youtu.be/43ZCeBTcsS8) for a detailed guide on setting up and running this project.
 
 ## Contributing
 
@@ -132,3 +132,5 @@ I'm the developer behind Developers Digest. If you find my work helpful or enjoy
 - **Website**: Check out my website at [developersdigest.tech](https://developersdigest.tech)
 - **Github**: Follow me on GitHub at [github.com/developersdigest](https://github.com/developersdigest)
 - **Twitter**: Follow me on Twitter at [twitter.com/dev__digest](https://twitter.com/dev__digest)
+
+test on local
